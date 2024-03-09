@@ -1,0 +1,24 @@
+.recommended{
+        padding: 5px;
+    margin-top: 33px;
+}
+.side-video-list{
+    display: flex;
+    margin-bottom: 8px;
+}
+.side-video-list img{
+    width: 50%;
+}
+.vid-info{
+    flex-basis: 49%;
+    margin: 5px;
+}
+.vid-info h4{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+@media (max-width:900px){
+    .recommended{
+       display: none;
+    }
+}
